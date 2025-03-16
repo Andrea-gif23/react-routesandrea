@@ -1,31 +1,29 @@
-const studies = [
+export const studies = [
   {
     id: 1,
-    title: 'Ingeniería en Informática',
-    institution: 'Universidad Nacional de La Matanza',
-    date: '2016 - Presente',
+    title: "Ingeniería en Software",
+    institution: "Universidad XYZ",
+    date: "2018 - 2022",
   },
   {
     id: 2,
-    title: 'Técnico en Informática',
-    institution: 'Escuela de Educación Técnica N° 4',
-    date: '2010 - 2015',
+    title: "Curso de React",
+    institution: "Platzi",
+    date: "2023",
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
     id: 1,
-    title: 'Desarrollador Frontend',
-    company: 'Tecso',
-    date: '2021 - Presente',
+    title: "Desarrollador Frontend",
+    company: "Empresa ABC",
+    date: "2022 - Presente",
   },
   {
     id: 2,
-    title: 'Desarrollador Fullstack',
-    company: 'Freelance',
-    date: '2019 - 2021',
+    title: "Practicante de Desarrollo",
+    company: "Startup XYZ",
+    date: "2021 - 2022",
   },
 ];
-
-export { studies, experiences };
